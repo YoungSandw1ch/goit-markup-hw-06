@@ -41,7 +41,7 @@ a {
 }
 body {
   font-size: 14px;
-  /* line-height: 1.2; */
+  line-height: 1.2;
   font-family: Roboto, sans-serif;
   color: var(--firstFontColor);
   background-color: var(--nullBg);
