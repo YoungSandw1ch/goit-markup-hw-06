@@ -594,3 +594,15 @@ body {
   fill: var(--brandColor);
 }
 /* .modal__icon {} */
+.modal__wrapper {
+  padding: 40px;
+  margin-bottom: 12px;
+}
+.modal__text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--firstFontColor);
+}
