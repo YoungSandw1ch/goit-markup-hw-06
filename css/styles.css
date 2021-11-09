@@ -589,5 +589,8 @@ body {
   border-radius: 50%;
   cursor: pointer;
 }
-
+.modal__close:focus .modal__icon,
+.modal__close:hover .modal__icon {
+  fill: var(--brandColor);
+}
 /* .modal__icon {} */
