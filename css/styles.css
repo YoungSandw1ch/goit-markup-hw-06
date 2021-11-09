@@ -87,6 +87,24 @@ body {
 .link:hover {
   color: var(--brandColor);
 }
+.button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: var(--brandColor);
+  color: var(--lightFontColor);
+  cursor: pointer;
+  transition: background-color var(--mainTransitionTime) var(--mainTransition), box-shadow var(--mainTransitionTime) var(--mainTransition);
+}
+.button:focus,
+.button:hover {
+  background-color: var(--brandHover);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 /*---------------------------------------------header------------------------------------*/
 
 .header {
@@ -189,22 +207,9 @@ body {
   margin-bottom: 30px;
   color: var(--lightFontColor);
 }
-.hero__btn {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  padding: 10px 32px;
-  border-radius: 4px;
-  background-color: var(--brandColor);
-  color: var(--lightFontColor);
-  cursor: pointer;
-  transition: background-color var(--mainTransitionTime) var(--mainTransition);
-}
-.hero__btn:focus,
-.hero__btn:hover {
-  background-color: var(--brandHover);
-}
+
+/* .hero__btn {} */
+
 /*----------------------------features-----------------------*/
 .features {
   display: flex;
@@ -596,13 +601,26 @@ body {
 /* .modal__icon {} */
 .modal__wrapper {
   padding: 40px;
-  margin-bottom: 12px;
 }
 .modal__text {
-  font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  text-align: center;
+  font-weight: 700;
   letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 12px;
   color: var(--firstFontColor);
 }
+/* ------------------------form---------------------- */
+.form {
+}
+.form__label {
+
+}
+.form__input {
+  display: block;
+  width: 100%;
+}
+.form__link {
+}
+.form__button {}
