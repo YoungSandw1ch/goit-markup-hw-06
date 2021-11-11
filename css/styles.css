@@ -524,6 +524,7 @@ body {
 }
 .footer__box:first-child {
   margin-right: 70px;
+  flex-grow: 1;
 }
 .footer__text {
   line-height: 1.14;
@@ -578,10 +579,8 @@ body {
   justify-content: center;
   align-items: center;
 }
-.button__text {
-  margin-right: 10px;
-}
 .button__icon {
+  margin-left: 10px;
   fill: currentColor;
 }
 
@@ -663,6 +662,10 @@ body {
 .form__field {
   position: relative;
   display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--secondFontColor);
   margin-bottom: 10px;
 }
 .form__field:nth-last-of-type(2){
@@ -672,23 +675,14 @@ body {
   margin-bottom: 30px;
 }
 .form__label {
-  display: block;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: var(--secondFontColor);
-}
-.form__label:last-child {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: var(--mainLetterSpacing);
   padding-left: 36.38px;
 }
-.form__label:not(:last-child) {
-  margin-bottom: 4px;
-}
 .form__wrapper {
   position: relative;
+  display: block;
 }
 .form__icon {
   position: absolute;
@@ -702,6 +696,7 @@ body {
   width: 100%;
   height: 40px;
   padding-left: 42px;
+  margin-top: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border-color var(--mainTransitionTime) var(--mainTransition);
