@@ -17,6 +17,7 @@
 /* --------------------------------------------global------------------------------------*/
 button {
   border: 0;
+  cursor: pointer;
 }
 ul {
   list-style: none;
@@ -98,7 +99,7 @@ body {
   border-radius: 4px;
   background-color: var(--brandColor);
   color: var(--lightFontColor);
-  cursor: pointer;
+  
   transition: background-color var(--mainTransitionTime) var(--mainTransition), box-shadow var(--mainTransitionTime) var(--mainTransition);
 }
 .button:focus,
@@ -397,7 +398,7 @@ body {
   padding: 6px 22px;
   border-radius: 4px;
   background-color: var(--sectionBg);
-  cursor: pointer;
+  
   transition: color var(--mainTransitionTime) var(--mainTransition), background-color var(--mainTransitionTime) var(--mainTransition), box-shadow var(--mainTransitionTime) var(--mainTransition);
 }
 .filter__btn:focus,
@@ -634,7 +635,7 @@ body {
   background-color: var(--nullBg);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  cursor: pointer;
+  
   transition: fill var(--mainTransitionTime) var(--mainTransition);
 }
 .modal__close:focus .modal__icon,
