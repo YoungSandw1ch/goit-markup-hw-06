@@ -247,7 +247,7 @@ body {
   color: var(--secondFontColor);
 }
 /*----------------------------works-------------------------*/
-.position {
+.section--padding {
   padding-top: 0;
 }
 .title {
