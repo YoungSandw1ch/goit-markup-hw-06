@@ -675,12 +675,6 @@ body {
 .form__field:last-of-type {
   margin-bottom: 30px;
 }
-.form__label {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: var(--mainLetterSpacing);
-  padding-left: 36.38px;
-}
 .form__wrapper {
   position: relative;
   display: block;
@@ -722,32 +716,31 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 /* ------------------------------check-icon-focus for tab--------------------- */
-.form__checkbox:focus ~ .checkbox__border {
+.form__checkbox:focus ~ .contract__icon {
   outline: 1px solid var(--brandColor);
 }
 /* ------------------------------custom-check-box----------------------------- */
-.form__checkbox:checked + .checkbox__icon {
-  opacity: 1;
+.form__checkbox:checked + .contract__icon {
+  border-color: var(--brandColor);
+  background-color: var(--brandColor);
 }
-.checkbox__icon {
-  position: absolute;
-  opacity: 0;
-  left: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-  transition: opacity var(--mainTransitionTime) var(--mainTransition);
+.contract {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.checkbox__border {
-  position: absolute;
-  left: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  display: block;
-  width: 16px;
-  height: 15px;
+.contract__icon {
   border: 1.8px solid var(--firstFontColor);
   border-radius: 2px;
+  transition: border-color var(--mainTransitionTime) var(--mainTransition), background-color var(--mainTransitionTime) var(--mainTransition);
+}
+.contract__icon--left {
+  margin-right: 7px;
+}
+.contract__label {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: var(--mainLetterSpacing);
 }
 /* -------------------------------------------------------------------------- */
 .form__link {
