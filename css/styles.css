@@ -109,7 +109,7 @@ body {
 }
 /*---------------------------------------------header------------------------------------*/
 
-.header {
+.page-header {
   letter-spacing: 0.02em;
   font-weight: 500;
   border-bottom: 1px solid #ececec;
