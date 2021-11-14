@@ -470,6 +470,7 @@ body {
   padding: 20px 24px;
   background-color: var(--nullBg);
   border: 1px solid #eeeeee;
+  border-top: none;
 }
 .portfolio__title {
   font-size: 18px;
