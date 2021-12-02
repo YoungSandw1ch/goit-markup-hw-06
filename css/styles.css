@@ -561,7 +561,7 @@ body {
   color: var(--lightFontColor);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-  background-color: var(--mainBg);
+  background-color: transparent;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   transition: border-color var(--mainTransitionTime) var(--mainTransition);
 }
